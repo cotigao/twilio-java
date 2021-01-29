@@ -19,6 +19,7 @@ import java.util.*;
 public class RequestValidator {
 
     private static final String HMAC = "HmacSHA1";
+    private static final int XXX = 10;
 
     private final SecretKeySpec signingKey;
 
